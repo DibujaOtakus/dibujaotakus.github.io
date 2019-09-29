@@ -9,13 +9,16 @@ body {
     max-width: 100%;
     align-content: center;
 }
-
+            @font-face{
+                font-family:fuente1;
+                src: url(fuente.ttf);
+            }
 h1 {
     color: greenyellow;
     text-align: center;
-    font-family: arial;
-    font-size: 60px;
-    margin-bottom: 100px;
+    font-family: fuente1;
+    font-size: 50px;
+    margin-bottom: 5px;
 }
 
 .title {
